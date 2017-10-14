@@ -1,0 +1,62 @@
+nav {
+    position: relative;
+    margin-top: 40px;
+}
+
+li {
+    border: 2px solid crimson;
+    background-color: aquamarine;
+    min-height: 40px;
+    min-width: 350px;
+    margin: -3px -6px 0px 0px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: lightcyan;
+}
+
+a[datatype*="level"] {
+    line-height: 40px;
+    text-decoration: none;
+    color: salmon;
+    font-size: 20px;
+    font-family: "Segoe UI";
+
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:active {
+    color: fuchsia;
+}
+
+.level1 > li {
+    display: inline-block;
+}
+
+
+.level2 {
+    display: none;
+    position: absolute;
+    top: 42px;
+    left: -2px;
+}
+
+
+.leveln {
+    display: none;
+    position: absolute;
+    left: 350px;
+    top: 2px;
+}
+
+.leveln-base, .level2-base{
+    position: relative;
+}
+
+.leveln-base:hover .leveln, .level2-base:hover .level2 {
+    display: block;
+}
