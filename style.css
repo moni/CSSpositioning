@@ -8,11 +8,24 @@
     /*display: block;*/
 /*}*/
 
-/*GENIALNE ROZWIĄZANIE*/
+/*PROBLEM SOLVED for n-levels*/
 .menu ul ul {
     display: none;
 }
 
 .menu li:hover > ul {
     display: block;
+}
+
+header .menu {
+    color: crimson;
+}
+
+footer .menu {
+    color: darkcyan;
+}
+
+.menu {
+    font-size: 18px;
+    font-weight: bold;
 }
