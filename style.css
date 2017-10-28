@@ -9,10 +9,10 @@
 /*}*/
 
 /*GENIALNE ROZWIĄZANIE*/
-ul ul {
+.menu ul ul {
     display: none;
 }
 
-li:hover > ul {
+.menu li:hover > ul {
     display: block;
 }
