@@ -1,0 +1,18 @@
+
+/*This SUCKS if We have n-elements*/
+/*.poziom2, .poziom3, .poziom4 {*/
+    /*display: none;*/
+/*}*/
+
+/*.poziom1 li:hover .poziom2, .poziom2 li:hover .poziom3, .poziom3 li:hover .poziom4 {*/
+    /*display: block;*/
+/*}*/
+
+/*GENIALNE ROZWIĄZANIE*/
+ul ul {
+    display: none;
+}
+
+li:hover > ul {
+    display: block;
+}
